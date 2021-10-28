@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Code- Contato</title>
+    <link rel="stylesheet" type="text/css" href="folhadeestilo.css">
+    
+</head>
+<body class="color-page">
+    <div class="container-principal" id="topo">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imagens/logo.png" alt="logo site">
+                </a>
+            </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clientes.html"> Clientes</a></li>
+                <li><a href="sobre.html"> Sobre</a></li>
+                <li><a href="#topo"> Contato</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <div class="img-titulo"><img src="imagens/contato.png" alt="imagem contato"></div>
+        <section id="txt-contato">
+            <form name="meu_form" id="meu_form">
+                <p class="nome">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nomeid" placeholder="ex: fulano da silva" required="required" name="nome">
+                <p class="fone">
+                    <label for="fone">Fone:</label><br>
+                    <input type="phone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone">
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" required="required">
+                </p>
+                <p>
+                    <textarea placeholder="mensagem" required="required"></textarea> <!--textarea (input), o atributo placeholder é a msg que aparecera na caixa para orientar o preenchimento do usuário / o atributo required informa ao browser que o campo é obrigatório-->
+
+                </p>
+                <button type="submit" form="meu_form"> Enviar</button>
+            </form>
+
+            <div id="conta-data"> 
+                <h4>Code - Desenvolvimento de sites</h4>
+                <h5> <img src="imagens/icoadress.png" alt="endereço"><br> Avenida Novos Conhecimentos n° 2021 </h5>
+                <h5><img src="imagens/icoTelefone.png" alt="telefone"><br> +55 11 9999-9999 </h5>
+                <h5><img src="imagens/icoContato.png" alt="email"><br>contato@code.com.br</h5>
+                <h5><img src="imagens/icoface.png" alt="facebook"><br>facebook.com\codedev</h5>
+                <h5><img src="imagens/icoinsta.png" alt="intagram"><br>@codedev</h5>
+            </div>
+
+        </section>
+    </div>
+</body>
+</html>
